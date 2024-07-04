@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    padding: 0;   
+    font-family: sans-serif;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35px;
+    background-color: black;
+    color: gray;
+    font-size: 12px;
+}
+span{
+    margin-left: 180px;
+}
+.list{
+    display: flex;
+    margin-right: 115px;
+}
+.list li{
+    list-style: none;
+    margin: 20px;
+}
+.span{
+    font-size: 15px;
+    color: #fff;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+.image{
+    margin-right: 45px;
+    display: flex;
+}
+.image img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.ul{
+    display: flex;
+    margin-left: 80px;
+}
+.ul li{
+    list-style: none;
+    margin: 30px;
+    font-weight: bold;
+}
+.image1 img{
+    width: 120px;
+    height: 105px;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 10px;
+}
+.main{
+    background-image: url(background.jpeg);
+    background-size: cover;
+    height: 700px;
+    color: #fff;
+}
+
+.deux{
+    display: flex;
+    justify-content: center;
+}
+.deux img{
+    width: 450px;
+    position: relative;
+    margin-top: 30px;
+}
+.un{
+    display: flex;
+    justify-content: center;
+    
+}
+.un img{
+    width: 60px;
+    margin-top: 150px;
+    
+}
+.main h5{
+border-bottom: 2px solid #fe6a45;
+    padding: 10px;
+    width: 30px;
+    margin-left: 625px;
+    /* margin-bottom: 20px; */
+}
+
+
+.text{
+    text-align: center;
+    margin-top: 120px;
+}
+.text h1{
+    font-size: 50px;
+}
+.text h6{
+    font-size: 13px;
+}
+.rect span{
+    font-size: 10px;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+.rect{
+    text-align: center;
+    margin-right: 180px;
+    margin-top: 90px;
+}
+.footer{
+    text-align: center;
+    margin-top: 350px;
+}
+.cercle{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.cercle li{
+    background-color: #fff;
+    height: 3px;
+    width: 3px;
+    border-radius: 50px;
+    position: relative;
+    color: #fff;
+    font-size: 1px;
+    margin: 5px;
+}
+
+/* responsivité */
+@media screen and (max-width: 1200px) {
+    span{
+        margin-left: 150px;
+        font-size: 15px;
+    }
+    .top{
+        font-size: 10px;
+        height: 150px;
+    }
+    .list{
+        display: block;
+        margin-right: 5px;
+        height: 100px;
+    }
+    .list li{
+        list-style: none;
+        margin: 8px;
+        font-size: 13px;
+    }
+    .span{
+        font-size: 10px;
+        color: #fff;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #fff;
+    }
+    .image{
+        margin-right: 45px;
+        display: flex;
+    }
+    .image img{
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+    }
+    .ul{
+        display: flex;
+        margin-left: 0px;
+    }
+    .ul li{
+        list-style: none;
+        margin: 5px;
+        font-weight: bold;
+    }
+    .image1 img{
+        width: 120px;
+        height: 105px;
+        margin-left: 0px;
+        position: absolute;
+        margin-top: 25px;
+    }
+    .main h5{
+            border-bottom: 2px solid #fe6a45;
+            padding: 10px;
+            width: 40px;
+            margin-left: 165px;
+        }
+
+        .text{
+            text-align: center;
+            margin-top: 10px;
+        }
+        .text h1{
+            font-size: 30px;
+        }
+        .text h6{
+            font-size: 10px;
+        }
+        .rect span{
+            padding: 5px;
+        }
+        .rect{
+            text-align: center;
+            margin-right: 127px;
+            margin-top: 50px;
+        }
+        .un img{
+            width: 60px;
+            margin-top: 50px;
+        }
+        .deux img{
+            width: 190px;
+            position: relative;
+            margin-top: 100px;
+        }
+        .main{
+            height: auto;
+        }
+        .footer{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .cercle{
+            margin-left: 20px;
+        }
+}
